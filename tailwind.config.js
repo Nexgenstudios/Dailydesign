@@ -14,13 +14,17 @@ module.exports = {
       padding: "15px",
     },
     screens: {
-      sm: "575px",
+      sm: "640px",
       md: "768px",
-      lg: "1200px",
-      xl: "1920px",
+      lg: "1024px",
+      xl: "1280px",
     },
     fontFamily: {
       primary: "var(--font-inter)",
+      secondry: "var(--font-sora)",
+      manrope: "var(--font-manrope)",
+      syne: "var(--font-syne)",
+      helvetica: "var(--font-helvetica)",
     },
     extend: {
       keyframes: {
