@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary bg-transparent text-black leading-loose;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mob_header_padd {
+    padding: 10px 100px;
+  }
+}
