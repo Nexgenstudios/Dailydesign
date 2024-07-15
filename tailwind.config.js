@@ -25,6 +25,8 @@ module.exports = {
       manrope: "var(--font-manrope)",
       syne: "var(--font-syne)",
       helvetica: "var(--font-helvetica)",
+      dmSans: "var(--font-dmSans)",
+      roboto: "var(--font-roboto)",
     },
     extend: {
       keyframes: {

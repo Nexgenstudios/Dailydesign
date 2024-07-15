@@ -298,6 +298,8 @@ ul.services-list li.service-item-list:not(:last-child) {
 
 /* Home */
 
+/* Hero Section */
+
 .dailydesign-hero-wrapper {
   background-image: url("../public/assets/home/hero-image.png");
   background-position: center center;
@@ -405,5 +407,334 @@ p.rating-count {
   display: flex;
   align-items: center;
 }
+
+/* Hero Section */
+
+/* Section Two */
+.clients-testimonial-main-wrapper {
+  background: linear-gradient(0deg, #f2f3ff 0%, #ffffff 100%);
+  position: relative;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  max-width: 1145px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  border-bottom: 1px solid #635d6fa6;
+}
+
+.clients-testimonial-main-wrapper .main-header .header-button {
+  @apply font-dmSans;
+  font-size: 16.63px;
+  font-weight: 600 !important;
+  line-height: 25.59px;
+  letter-spacing: -0.166333869099617px;
+  border-radius: 0px !important;
+  background-color: #3366ff !important;
+}
+
+.clients-testimonial-main-wrapper .main-header .header-button:hover {
+  background-color: #3366ffe0 !important;
+}
+
+.icon-gap {
+  margin-left: 6px;
+}
+
+.clients-testimonial-main-wrapper::before {
+  background: linear-gradient(180deg, #18274b1f, #18274b1f 52.6%, #18274b1f);
+  background: -webkit-linear-gradient(
+    180deg,
+    #18274b1f,
+    #18274b1f 52.6%,
+    #18274b1f
+  );
+  /* border-radius: 50%; */
+  bottom: 0;
+  content: "";
+  height: 1250px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  width: 565px;
+}
+
+.testimonial-clients-wrapper {
+  -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px);
+  background: rgba(0, 0, 0, 0.01);
+  height: inherit;
+  padding-top: 76px;
+  padding-bottom: 24px;
+}
+
+.dailydesign-testimonial {
+  padding-top: 30px;
+  padding-bottom: 115px;
+}
+
+.main-header-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-header-2 h2.heading {
+  @apply font-syne;
+  font-size: 42.13px;
+  font-weight: 600;
+  line-height: 48.61px;
+  letter-spacing: -1.6204248666763306px;
+  text-align: center;
+}
+
+h2.heading {
+  @apply font-secondry;
+  font-size: 38.89px;
+  font-weight: 400;
+  line-height: 54.45px;
+}
+
+h2.heading span.gradient-text {
+  -webkit-text-fill-color: #0000;
+  background: linear-gradient(87.78deg, #36f, #e755ff);
+  -webkit-background-clip: text;
+}
+
+h2.heading span.gradient-text span.next-for-you {
+  font-weight: 600;
+}
+
+.testimonial-box-item {
+  width: 100%;
+  max-height: 565px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  /* box-shadow: 0px 58.29px 204px -19.43px #18274b1f;
+  box-shadow: 0px 38.86px 87.43px -29.14px #18274b1f; */
+}
+
+.testi-top-part {
+  padding: 12px 14px 0px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.testi-middle-part {
+  padding: 12px 0px;
+}
+
+.testi-middle-part img {
+  height: 208px;
+}
+
+.testi-footer-part {
+  padding: 16px 19px;
+}
+
+.testimonial-link {
+  @apply font-roboto;
+  font-size: 15.28px;
+  font-weight: 400;
+  line-height: 20.37px;
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  color: #536471;
+}
+
+.posted-date {
+  @apply font-roboto;
+  font-size: 14.36px;
+  font-weight: 400;
+  line-height: 19.15px;
+  color: #536471;
+}
+
+.feedback-comment {
+  @apply font-roboto;
+  font-size: 17.96px;
+  font-weight: 400;
+  line-height: 21.55px;
+  margin-bottom: 16px;
+  overflow: auto;
+  height: 173px;
+}
+
+.position-wrapper,
+.profile-info-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.testi-footer-part {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.owl-theme .owl-nav {
+  position: absolute;
+  top: -3rem;
+  right: 0;
+}
+
+.arrow-color {
+  color: #c7c7c9;
+  font-size: 16px;
+}
+
+.custom-prev-arrow {
+  left: 10px;
+}
+
+.custom-next-arrow {
+  right: 10px;
+}
+
+.arrow-link {
+  color: #2b78f5;
+  margin-left: 4px;
+}
+
+.feedback-comment {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+.profile-info .name {
+  @apply font-roboto;
+  font-size: 13.47px;
+  font-weight: 700;
+  line-height: 17.96px;
+  color: #0f1419;
+}
+
+.position-wrapper .position {
+  @apply font-roboto;
+  font-size: 15.58px;
+  font-weight: 400;
+  line-height: 20.78px;
+  color: #536471;
+}
+
+.client-slider-main-wrapper {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.worked-year {
+  @apply font-primary;
+  font-size: 15.75px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: end;
+}
+
+.clients-slider {
+  padding-top: 60px;
+}
+
+.client-slider-inner-wrapper {
+  display: flex;
+  animation: sliderLeft 14s linear infinite;
+}
+
+@keyframes sliderLeft {
+  100% {
+    transform: translateX(calc(-100% / 2));
+  }
+}
+
+.clientSliderItem {
+  width: 346px;
+  height: 172px;
+  padding: 26px 40px 26px 27px;
+  background-color: #f9faff;
+  box-shadow: 0px 0px 119.71px 0px #4285f417;
+  display: flex;
+  flex-direction: column;
+}
+
+.clientSliderItem:not(:last-child) {
+  margin-right: 12px;
+}
+/* Section Two */
+
+/* Section Three */
+
+.comparison-main-section {
+  padding-top: 89px;
+  padding-bottom: 75px;
+}
+
+.comparison-box {
+  width: 1290px;
+  margin: auto;
+  background-color: #f3f2ff;
+  padding: 68px 76px;
+}
+
+.comparison-main-header {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #635d6fa6;
+}
+
+.comparison-main-header .heading {
+  @apply font-secondry;
+  font-size: 38.89px;
+  font-weight: 400;
+  line-height: 54.45px;
+  color: #08141b;
+  width: 60%;
+  max-width: 100%;
+}
+
+.comparison-main-header .logo {
+  width: 20%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  background-color: #cdfde8;
+  height: 100%;
+}
+
+.comparison-main-header .others-works-header {
+  width: 20%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comparison-main-header .heading span {
+  font-weight: 700;
+}
+
+/* Section Three */
 
 /* Home */
