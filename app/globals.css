@@ -23,6 +23,10 @@ h3 {
   width: 100%;
   display: flex;
   align-items: center;
+  /* position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 100; */
 }
 
 .dailydesign__header_childrens {
@@ -656,7 +660,7 @@ h2.heading span.gradient-text span.next-for-you {
 
 .client-slider-inner-wrapper {
   display: flex;
-  animation: sliderLeft 14s linear infinite;
+  animation: sliderLeft 25s linear infinite;
 }
 
 @keyframes sliderLeft {
@@ -685,6 +689,20 @@ h2.heading span.gradient-text span.next-for-you {
 .comparison-main-section {
   padding-top: 89px;
   padding-bottom: 75px;
+  position: relative;
+}
+
+.comparison-main-section::before {
+  content: url("../public/assets/home/ball.png");
+  position: absolute;
+  bottom: 21%;
+}
+
+.comparison-main-section::after {
+  content: url("../public/assets/home/star.png");
+  position: absolute;
+  top: 18%;
+  right: 0;
 }
 
 .comparison-box {
@@ -698,7 +716,6 @@ h2.heading span.gradient-text span.next-for-you {
   display: flex;
   align-items: center;
   height: 100%;
-  padding-bottom: 10px;
   border-bottom: 1px solid #635d6fa6;
 }
 
@@ -710,6 +727,7 @@ h2.heading span.gradient-text span.next-for-you {
   color: #08141b;
   width: 60%;
   max-width: 100%;
+  padding-bottom: 10px;
 }
 
 .comparison-main-header .logo {
@@ -720,6 +738,7 @@ h2.heading span.gradient-text span.next-for-you {
   justify-content: center;
   margin-right: 20px;
   background-color: #cdfde8;
+  min-height: 115px;
   height: 100%;
 }
 
@@ -729,12 +748,160 @@ h2.heading span.gradient-text span.next-for-you {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #f5e2ff;
+  min-height: 115px;
+  height: 100%;
 }
 
 .comparison-main-header .heading span {
   font-weight: 700;
 }
 
+.comparison-main-content-box .comparision-table-row {
+  display: flex;
+  align-items: center;
+}
+
+.comparison-main-content-box .comparision-table-row:not(:last-child) {
+  border-bottom: 1px solid #635d6fa6;
+}
+
+.comparison-main-content-box .comparision-table-row .texts {
+  @apply font-primary;
+  font-size: 22.69px;
+  font-weight: 500;
+  line-height: 37.4px;
+  color: #030307;
+  width: 60%;
+  max-width: 100%;
+  padding-top: 27px;
+  padding-bottom: 13px;
+}
+
+.comparison-main-content-box .comparision-table-row .texts.font-bold {
+  font-weight: 700 !important;
+}
+
+.comparison-main-content-box .comparision-table-row:first-child .texts {
+  padding-top: 49px;
+  padding-bottom: 13px;
+}
+
+.comparison-main-content-box .comparision-table-row:last-child .texts {
+  padding-bottom: 36px;
+}
+
+.comparison-main-content-box
+  .comparision-table-row:last-child
+  .others-works-content,
+.comparison-main-content-box .comparision-table-row:last-child .logo,
+.comparison-main-content-box
+  .comparision-table-row:first-child
+  .others-works-content,
+.comparison-main-content-box .comparision-table-row:first-child .logo {
+  min-height: 100px;
+  height: 100%;
+}
+
+.comparison-main-content-box .comparision-table-row .logo {
+  width: 20%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cdfde8;
+  margin-right: 20px;
+  min-height: 78px;
+  height: 100%;
+}
+
+.comparison-main-content-box .comparision-table-row .others-works-content {
+  width: 20%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5e2ff;
+  min-height: 78px;
+  height: 100%;
+}
+
+.comparison-main-section .note-text {
+  @apply font-manrope;
+  color: #68686a;
+  font-size: 18.7px;
+  font-weight: 400;
+  line-height: 28.05px;
+}
+
 /* Section Three */
+
+/* Section Five */
+.recent-project-wrapper {
+  background-color: #000105;
+}
+
+.recent-project-title {
+  @apply font-syne;
+  font-size: 42.13px !important;
+  font-weight: 400 !important;
+  line-height: 48.61px;
+  letter-spacing: -1.6204248666763306px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.recent-project-title span {
+  font-weight: 600;
+}
+
+.recent-project-wrapper .subtitle {
+  @apply font-secondry;
+  font-size: 17.82px;
+  font-weight: 200;
+  text-align: center;
+  color: #ffffff;
+}
+
+.recent-project-image-wrapper {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-wrapper-main {
+  width: 90%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 42px;
+}
+
+.link-wrapper-main .view-portfolio-text {
+  @apply font-secondry;
+  -webkit-text-fill-color: #0000;
+  background: linear-gradient(90deg, #ffda91, #e6e2bd);
+  -webkit-background-clip: text;
+  font-size: 100.11px;
+  font-weight: 600;
+  line-height: 140.15px;
+  letter-spacing: -1.668453335762024px;
+  margin-right: 57px;
+}
+
+.link-wrapper {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.link-wrapper .arrow-link {
+  color: #f4dea5;
+  font-size: 132px;
+}
+
+/* Section Five */
 
 /* Home */
