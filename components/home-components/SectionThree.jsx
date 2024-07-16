@@ -95,14 +95,7 @@ const SectionThree = () => {
         </div>
       </div>
       <div className="container">
-        <p className="note-text">
-          At Design Monks, we've carved a unique niche in the UI UX domain,
-          setting ourselves apart with a combination of creativity,
-          client-centric approach, and strategic insight. Our reputation is
-          built on consistently delivering standout UI UX, branding, product
-          design, and web design that not only looks great but also drives brand
-          growth
-        </p>
+        <p className="note-text"></p>
       </div>
     </section>
   );
