@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import ProjectsCollabImage from "@/public/assets/home/designbg.png";
 

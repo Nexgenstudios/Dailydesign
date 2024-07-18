@@ -1,5 +1,3 @@
-"use client";
-
 import { Sora, Inter, Manrope } from "next/font/google";
 import dailyDesignLogo from "@/public/assets/header/dailydesign_logo.svg";
 import correctIcon from "@/public/assets/home/comparison-icon/correct.svg";
