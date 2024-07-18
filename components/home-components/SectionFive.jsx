@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import { Sora, Syne } from "next/font/google";
 import recentProjectImage from "@/public/assets/home/mob-app.png";

@@ -836,6 +836,104 @@ h2.heading span.gradient-text span.next-for-you {
 
 /* Section Three */
 
+/* Section Four */
+
+.technologies-used-wrapper {
+  background-color: #f3f2ff;
+  min-height: 680px;
+  padding-top: 66px;
+  padding-bottom: 120px;
+  position: relative;
+}
+
+.technologies-used-wrapper::before {
+  content: url("../public/assets/home/bg-left.svg");
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+
+.technologies-used-wrapper::after {
+  content: url("../public/assets/home/bg-right.svg");
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+}
+
+.technologies-used-title {
+  @apply font-syne;
+  font-size: 42.13px !important;
+  font-weight: 400 !important;
+  line-height: 48.61px;
+  letter-spacing: -1.6204248666763306px;
+  text-align: center;
+}
+
+.technologies-used-title span {
+  font-weight: 700;
+}
+
+.technologies-used-wrapper .subtitle {
+  @apply font-secondry;
+  font-size: 17.82px !important;
+  font-weight: 300 !important;
+  line-height: 61.92px;
+  text-align: center;
+}
+
+.technologies-used-image-wrapper {
+  width: 90%;
+  max-width: 100%;
+  margin: 57px auto auto auto;
+}
+
+.technologies-used-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 75%;
+  margin: auto;
+}
+
+.technologies-used-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.technologies-used-list-item:not(:last-child) {
+  margin-right: 37px;
+}
+
+.technologies-used-list-item:nth-child(n + 6) {
+  margin-top: 40px;
+}
+
+.technologies-used-list-item:nth-child(5) {
+  margin-right: 0px;
+}
+
+.technology-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 115.05px;
+  height: 108.95px;
+  border-radius: 5.67px;
+  background-color: #ffffff;
+}
+
+.technology-name {
+  @apply font-primary;
+  font-size: 19.45px;
+  font-weight: 400;
+  line-height: 37.4px;
+  text-align: center;
+  margin-top: 16px;
+}
+
+/* Section Four */
+
 /* Section Five */
 .recent-project-wrapper {
   background-color: #000105;
@@ -903,5 +1001,135 @@ h2.heading span.gradient-text span.next-for-you {
 }
 
 /* Section Five */
+
+/* Section Seven*/
+
+.contact-exective-wrapper {
+  background-color: #f9f9ff;
+}
+
+.contact-executive-container {
+  width: 90%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.priceList-wrapper {
+  padding-top: 92px;
+  padding-bottom: 58px;
+  width: 70%;
+  max-width: 100%;
+  margin-right: 135px;
+}
+
+h2.pricelist-contact-heading {
+  @apply font-pingfangsc;
+  font-size: 46.99px;
+  font-weight: 600;
+  line-height: 54.28px;
+  color: #56555b;
+}
+h2.pricelist-contact-heading span {
+  color: #4b4efa;
+  display: block;
+}
+
+ul.services-provide-list {
+  margin-top: 47px;
+  max-width: 762px;
+}
+
+ul.services-provide-list li {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #b5b5e6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul.services-provide-list li:not(:first-child) {
+  padding-top: 17px;
+}
+
+ul.services-provide-list li span {
+  @apply font-pingfangsc;
+  font-size: 22.21px;
+  font-weight: 600;
+  line-height: 25.65px;
+  color: #071319;
+}
+
+ul.services-provide-list li span:last-child {
+  padding-right: 25px;
+}
+
+.founder-data-wrapper {
+  width: 30%;
+  max-width: 100%;
+  background-color: #000105;
+  padding: 90px 35px 104px 35px;
+}
+
+.founder-image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.founder-details-wrapper {
+  margin-top: 21px;
+}
+
+.founder-details-wrapper p.texts {
+  @apply font-secondry;
+  font-size: 24.15px;
+  font-weight: 400;
+  line-height: 33.81px;
+  letter-spacing: -1.0062963962554932px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.founder-details-wrapper p.texts span {
+  font-weight: 600;
+}
+
+.founder-cta-wrapper {
+  margin-top: 30px;
+}
+
+.ask-quest-btn {
+  padding: 15.52px 34.14px 15.52px 34.14px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 225px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  @apply font-primary;
+  font-size: 16.55px;
+  font-weight: 400;
+  line-height: 24.83px;
+  letter-spacing: 0.517292320728302px;
+}
+
+.ask-quest-btn img {
+  margin-left: 15px;
+}
+
+/* Section Seven */
+
+/* Section Eight */
+
+.faq-main-wrapper {
+  margin-top: 110px;
+  margin-bottom: 62px;
+  background-color: #ffffff;
+}
+/* Section Eight */
 
 /* Home */

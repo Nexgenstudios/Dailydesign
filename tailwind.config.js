@@ -27,6 +27,7 @@ module.exports = {
       helvetica: "var(--font-helvetica)",
       dmSans: "var(--font-dmSans)",
       roboto: "var(--font-roboto)",
+      pingfangsc: "var(--font-pingfangsc)",
     },
     extend: {
       keyframes: {
