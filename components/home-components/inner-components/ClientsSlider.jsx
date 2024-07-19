@@ -18,7 +18,7 @@ const ClientsSlider = () => {
           .fill(null)
           .map((_, index) => {
             return (
-              <div className="clientSliderItem">
+              <div key={index} className="clientSliderItem">
                 <p className={`${inter.variable} worked-year`}>2023</p>
                 <Image
                   src={oracleIcon}
