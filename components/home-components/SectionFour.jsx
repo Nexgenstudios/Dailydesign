@@ -7,7 +7,7 @@ import aiIcon from "@/public/assets/home/technologies-logos/ai.svg";
 import reactIcon from "@/public/assets/home/technologies-logos/react.svg";
 import nextIcon from "@/public/assets/home/technologies-logos/next.svg";
 import htmlIcon from "@/public/assets/home/technologies-logos/html.svg";
-import javascriptIcon from "@/public/assets/home/technologies-logos/javascript.svg";
+import javascriptIcon from "@/public/assets/home/technologies-logos/javaScript.svg";
 import figmaIcon from "@/public/assets/home/technologies-logos/figma.svg";
 
 const sora = Sora({
