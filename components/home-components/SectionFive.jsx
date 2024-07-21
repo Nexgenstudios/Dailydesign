@@ -30,11 +30,9 @@ const SectionFive = () => {
       <div className="recent-project-image-wrapper">
         <Image
           src={recentProjectImage}
-          priority
-          quality={100}
-          width={"100%"}
-          height={"auto"}
-          unoptimized={true}
+          layout="responsive"
+          width={1807}
+          height={620}
           alt="recent-project-img"
         />
       </div>

@@ -128,6 +128,9 @@ const Footer = () => {
                 alt="dailydesign-logo-footer"
               />
             </Link>
+            <p className={`${sora.variable} sub-text mob-footer-sub-text`}>
+              CRAFTING DIGITAL DREAMS
+            </p>
           </div>
 
           {/* footer links area */}

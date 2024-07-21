@@ -1,4 +1,6 @@
 import { Sora, Inter, Manrope } from "next/font/google";
+import ballImg from "@/public/assets/home/ball.png";
+import starImg from "@/public/assets/home/star.png";
 import dailyDesignLogo from "@/public/assets/header/dailydesign_logo.svg";
 import correctIcon from "@/public/assets/home/comparison-icon/correct.svg";
 import wrongIcon from "@/public/assets/home/comparison-icon/wrong.svg";
@@ -53,6 +55,31 @@ const comparison_texts = [
 const SectionThree = () => {
   return (
     <section className="comparison-main-section">
+      <Image
+        src={ballImg}
+        alt="ball Image"
+        width={102}
+        height={198}
+        className="ball-image"
+        quality={100}
+      />
+
+      <Image
+        src={starImg}
+        alt="star Image"
+        width={140}
+        height={224}
+        className="star-image"
+        quality={100}
+      />
+      <div className="container mob-comparison-main-header">
+        <h2 className={`${sora.variable} heading`}>
+          What makes Daily Design <br /> the{" "}
+          <span className="gradient-text">
+            <span>best for Business?</span>
+          </span>
+        </h2>
+      </div>
       <div className="comparison-box">
         <div className="comparison-main-header">
           <h2 className={`${sora.variable} heading`}>
@@ -61,7 +88,6 @@ const SectionThree = () => {
           <div className="logo">
             <Image
               src={dailyDesignLogo}
-              priority
               quality={100}
               width={192}
               height={30}
@@ -108,7 +134,7 @@ const SectionThree = () => {
           })}
         </div>
       </div>
-      <div className="container pt-[62px] pl-[35px] pr-[35px]">
+      <div className="container pt-[30px] pl-[25px] pr-[25px] lg:pt-[62px] pl-[35px] pr-[35px]">
         <p className={` ${manrope.variable} note-text`}>
           At Design Monks, we&apos;ve carved a unique niche in the UI UX domain,
           setting ourselves apart with a combination of creativity,

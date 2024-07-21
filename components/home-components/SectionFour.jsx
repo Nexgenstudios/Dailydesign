@@ -1,3 +1,5 @@
+"use client";
+
 import { Syne, Sora, Inter } from "next/font/google";
 import Image from "next/image";
 import vsCodeIcon from "@/public/assets/home/technologies-logos/vs-code.svg";
@@ -9,6 +11,9 @@ import nextIcon from "@/public/assets/home/technologies-logos/next.svg";
 import htmlIcon from "@/public/assets/home/technologies-logos/html.svg";
 import javascriptIcon from "@/public/assets/home/technologies-logos/javaScript.svg";
 import figmaIcon from "@/public/assets/home/technologies-logos/figma.svg";
+import bgLeft from "@/public/assets/home/bg-left.svg";
+import bgRight from "@/public/assets/home/bg-right.svg";
+// import { useEffect, useState } from "react";
 
 const sora = Sora({
   subsets: ["latin"],
@@ -68,8 +73,43 @@ const technologiesLogo = [
 ];
 
 const SectionFour = () => {
+  // const [windowWidth, setWindowWidth] = useState(0);
+
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     setWindowWidth(window.innerWidth);
+  //   };
+
+  //   // Set initial window width
+  //   setWindowWidth(window.innerWidth);
+
+  //   // Add event listener to update window width on resize
+  //   window.addEventListener("resize", handleResize);
+
+  //   // Clean up event listener
+  //   return () => {
+  //     window.removeEventListener("resize", handleResize);
+  //   };
+  // }, []);
   return (
     <section className="technologies-used-wrapper">
+      <Image
+        src={bgLeft}
+        alt="backgroundImage"
+        width={570}
+        height={570}
+        className="backgroundImage-left"
+        quality={100}
+      />
+
+      <Image
+        src={bgRight}
+        alt="backgroundImage"
+        width={570}
+        height={570}
+        className="backgroundImage-right"
+        quality={100}
+      />
       <div className="container">
         <h3 className={`${syne.variable} technologies-used-title`}>
           Our Specialization - <span>Tools</span>
@@ -85,11 +125,10 @@ const SectionFour = () => {
                   <div className="technology-icon">
                     <Image
                       src={item.logo}
-                      priority
                       quality={100}
-                      width={item.name === "JavaScript" ? 50 : "100%"}
-                      height={item.name === "JavaScript" ? 50 : "auto"}
-                      alt="technology-icon"
+                      width={50}
+                      height={50}
+                      alt={item.name}
                     />
                   </div>
                   <p className={` ${inter.variable} technology-name`}>

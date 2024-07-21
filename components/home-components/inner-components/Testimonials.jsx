@@ -103,6 +103,7 @@ const responsiveOptions = {
   responsive: {
     0: { items: 1, nav: false, dots: true },
     768: { items: 2, nav: false, dots: true },
+    1280: { items: 3 },
     1920: { items: 3 },
   },
 };
