@@ -6,11 +6,12 @@ const SectionSix = () => {
     <section className="designs-collab-section">
       <Image
         src={ProjectsCollabImage}
-        priority
-        quality={100}
-        width={"100%"}
-        height={"auto"}
-        unoptimized={true}
+        // priority
+        // quality={100}
+        layout="responsive"
+        width={1920}
+        height={620}
+        // unoptimized={true}
         alt="project-collab-img"
       />
     </section>
