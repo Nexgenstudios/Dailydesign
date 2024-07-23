@@ -11,6 +11,7 @@ import nextIcon from "@/public/assets/home/technologies-logos/next.svg";
 import htmlIcon from "@/public/assets/home/technologies-logos/html.svg";
 import javascriptIcon from "@/public/assets/home/technologies-logos/javaScript.svg";
 import figmaIcon from "@/public/assets/home/technologies-logos/figma.svg";
+import webflowIcon from "@/public/assets/home/technologies-logos/webflow.svg";
 import bgLeft from "@/public/assets/home/bg-left.svg";
 import bgRight from "@/public/assets/home/bg-right.svg";
 // import { useEffect, useState } from "react";
@@ -46,9 +47,13 @@ const technologiesLogo = [
     logo: javascriptIcon,
     name: "JavaScript",
   },
+  // {
+  //   logo: htmlIcon,
+  //   name: "HTML",
+  // },
   {
-    logo: htmlIcon,
-    name: "HTML",
+    logo: webflowIcon,
+    name: "Webflow",
   },
   {
     logo: nextIcon,
